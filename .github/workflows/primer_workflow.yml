@@ -1,0 +1,10 @@
+name: Mi primer Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "Hola Mundo desde GitHub Actions"
